@@ -2,5 +2,5 @@ language: python
 rvm:
  - "3.5"
 # command to run tests
-script: test_rpn
+script: make test
 
