@@ -1,6 +1,10 @@
 language: python
 rvm:
  - "3.5"
+
 # command to run tests
 script: make test
+
+notifications:
+  email: false
 
